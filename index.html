@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img id="alura" src="Frame 6.png" alt="">
+
+    <div class="container">
+        <div class="boxText1">
+            <textarea class="textarea1" id="encriptado" name="named" placeholder="Ingrese texto aqui " ></textarea>
+            <div class="boxtextito">
+                <div class="simbolo_texto">
+                <img src="bi_exclamation-circle-fill.png" alt="">
+                <p class="parrafo">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="botones-imagen">
+                    <button onclick="encr();" class="boton-encriptado">Encriptar</button>
+                    <button onclick="desencr(); " class="boton-desencriptado">Desencriptar</button>
+                    <img src="eraser.png" alt="" onclick="borrado();" class="eraser">
+                </div>
+            </div>
+        </div>
+        
+        <div class="boxText2" >
+            <div class="container2">
+                <textarea class="textarea2" id="desencriptado" name="named"></textarea>
+                <img src="imagen.png" id="image" alt="">
+                <button onclick="copiado();" class="boton-copiar" id="botondecopiado" >Copiar</button>
+            </div>
+        </div>    
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
